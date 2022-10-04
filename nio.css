@@ -1,0 +1,56 @@
+forms {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:10px 10px;
+  margin:10px 10px;
+   background: rgb(185, 69, 6);
+  color:#fff;
+  box-shadow: silver 23px 22px 20px;
+}
+.end {
+  display: flex;
+  justify-content: space-between;
+}
+textarea {
+  resize: none;
+}
+table{
+  margin-top:50px;
+  text-align:center;
+  background: #333;
+  color:#fff;
+  width:100%;
+  box-shadow: silver 23px 22px 20px;
+}
+img{
+  margin-left: 949px;
+  position: relative;
+  position: fixed;
+  margin-top: 80px;
+  border-radius: 5%;
+  box-shadow:gold 21px 23px 24px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

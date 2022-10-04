@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nio.css">
+    
+</head>
+<body>   
+<script src="bai.js"> </script>
+<img src="devop.png" width="400px" height="200px">
+
+<forms>
+  <div>
+    <label for="fn">First Name:</label>
+    <input id="fn" type="text" placeholder="Enter your first name" siz="20">
+    <label for="sn">Last Name:</label>
+    <input id="sn" type="text" placeholder="Enter your second name" siz="20">
+  </div>
+ 
+   <div>
+    <label for="add">Enter your Address:</label>
+    <textarea id="add" rows:"5" cols:"5"></textarea>
+  </div>
+    <div>
+    <label for="pin">Date of Brith</label>
+    <input type="date" id="pin" value=""  name="pin"  />
+  </div>
+  <div>
+    <label id="gen"> Gender:</label>
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female
+  </div>
+  <div>
+    <label for="state">textarea:</label>
+    <input id="state" type="text" placeholder="Enter your text">
+  </div>
+   <div>
+    <label for="country">Country:</label>
+    <input id="country" type="text" placeholder="Enter your country name">
+     </div>
+  <div class="end">
+<!--     <button>submitt</button> -->
+     <input type="button" name="submitt" id="btn" value="Onsubmit" onclick="AddRow()">
+    <input type="Reset">
+  </div>
+  </forms>
+<table border=1 id="mytable">
+  <tr>
+    <th>Firstname</th>
+    <th>SecondName</th>
+    <th>Address</th>
+    <th>Date of Brith</th> 
+    <th>Gender</th>
+
+    <th>textarea</th>
+    <th>country</th>
+  </tr>
+  </table>
+
+
+</body>
+</html>
